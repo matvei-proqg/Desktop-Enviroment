@@ -1,0 +1,204 @@
+/* Basic Color Classes */
+.blue { background-color: blue; }
+.green { background-color: green; }
+.yellow { background-color: yellow; }
+.purple { background-color: purple; }
+.red { background-color: red; }
+.orange { background-color: orange; }
+.pink { background-color: pink; }
+.teal { background-color: teal; }
+.cyan { background-color: cyan; }
+.indigo { background-color: indigo; }
+.lime { background-color: lime; }
+.brown { background-color: brown; }
+.gray { background-color: gray; }
+.gold { background-color: gold; }
+.silver { background-color: silver; }
+.violet { background-color: violet; }
+.magenta { background-color: magenta; }
+.aqua { background-color: aqua; }
+.khaki { background-color: khaki; }
+.coral { background-color: coral; }
+.navy { background-color: navy; }
+.olive { background-color: olive; }
+.maroon { background-color: maroon; }
+.turquoise { background-color: turquoise; }
+
+/* Heading Styles */
+.h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin: 10px 0;
+}
+.h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.h4 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+/* Buttons */
+.button {
+  background-color: #97315D;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #7c2646;
+}
+
+/* Input Fields */
+.mos-input {
+  background-color: rgba(79, 15, 25, 0.7);
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  border: 2px solid #97315D;
+  transition: border-color 0.3s ease;
+}
+.mos-input:focus {
+  border-color: #7c2646;
+}
+
+/* Notification Bar */
+.notification_bar {
+  color: white;
+  background-color: #4E122F;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+.ntf_text_contents {
+  margin: 15px;
+}
+.ntf_top_bar {
+  padding: 10px;
+  background-color: #4E122F;
+  border-radius: 5px;
+}
+.ntf_main_image {
+  margin: 15px;
+  margin-top: 10px;
+}
+
+/* Main Div */
+.ntf_main_div {
+  background: radial-gradient(circle, #4E122F, #5e2c44);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+}
+
+/* App and Menu Styling */
+.mm_tab {
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  background-color: rgba(94, 44, 68, 0.5);
+  transition: background-color 0.3s ease;
+}
+.mm_tab:hover {
+  background-color: rgba(94, 44, 68, 0.7);
+}
+
+/* Profile Info */
+.mm_profileinfo image {
+  margin: 5px;
+  margin-right: 10px;
+}
+.mm_profileinfo .h1 {
+  margin-top: 3px;
+}
+
+/* Menu Icons */
+.mm_managingicons * {
+  margin: 5px;
+}
+.mm_menu_m2 {
+  background-color: rgba(94, 44, 68, 0.6);
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+.mm_menu_m2:hover {
+  background-color: rgba(94, 44, 68, 0.8);
+}
+
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F4F4F4;
+  color: #333;
+}
+
+/* Hover Effects */
+.app {
+  transition: background 0.3s ease, transform 0.3s ease;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 5px;
+  border-radius: 20000px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.app:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+/* Icons Styling */
+.notification-bell-wrapper,
+.status-icons-wrapper {
+  background: white;
+  color: black;
+  border-radius: 50%;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
+.center-icons image,
+.other-icons-wrapper image,
+.status-icons-wrapper image {
+  margin: 5px;
+}
+
+/* Clock and Day Text */
+.clock-text {
+  font-weight: 900;
+  font-size: 2rem;
+  color: #4E122F;
+}
+.day-text {
+  padding-left: 10px;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #4E122F;
+}
+
+/* Workspace */
+.workspaces * {
+  margin: 0px;
+  padding: 0px;
+}
